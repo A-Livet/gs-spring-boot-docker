@@ -13,4 +13,5 @@ steps:
 - script: 
     cd complete/
     sudo docker build -t my_app .
+    sudo docker run my_app
   displayName: 'Run docker build'
