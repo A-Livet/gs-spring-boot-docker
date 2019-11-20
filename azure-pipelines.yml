@@ -12,5 +12,5 @@ pool:
 steps:
 - script: 
     cd complete/
-    docker build -t my_app .
+    sudo docker build -t my_app .
   displayName: 'Run docker build'
